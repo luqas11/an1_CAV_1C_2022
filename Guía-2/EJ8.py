@@ -36,4 +36,3 @@ for i in range(0, 100):
     delta_x = abs(gnr(x) - x)
     rel_error = abs(gnr(x) - x) / gnr(x)
     x = gnr(x)
-    

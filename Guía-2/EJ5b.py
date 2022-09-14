@@ -37,4 +37,3 @@ for i in range(0, 100):
         break
     delta_x = abs(gnr(x) - x) / 2
     x = gnr(x)
-    

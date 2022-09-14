@@ -46,4 +46,3 @@ for i in range(0, 100):
     rel_error = delta_x / new_xn
     xn_1 = xn
     xn = new_xn
-    
