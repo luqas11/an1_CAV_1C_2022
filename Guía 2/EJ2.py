@@ -12,7 +12,7 @@ import numpy as np
 def f(x):
     return np.power(x, 2) / 4 - np.sin(x)
 
-# Intervalo incial
+# Intervalo inicial
 A = 1.5
 B = 2.5
 
@@ -26,15 +26,16 @@ MAX_ERR = 0.02
 # Cotas de cada intervalo
 a_n = A
 b_n = B
+
 # Valor medio de cada intervalo
 valor_medio = (a_n + b_n) / 2
-delta_m = (b_n - a_n) / 2
+deltaMs = (b_n - a_n) / 2
 
 print ("{:<3} {:<7} {:<7} {:<10} {:<10} {:<7}".format("i", "a_n", "b_n", "vm", "Δm", "f_vm"))
 for i in range(0, 1000):
-    print ("{:<3} {:0.3f}   {:0.3f}   {:0.6f}   {:0.6f}   {:0.3f}".format(i, a_n, b_n, valor_medio, delta_m, f(valor_medio)))
-    if delta_m < MAX_ERR:
-        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n\n")
+    print ("{:<3} {:0.3f}   {:0.3f}   {:0.6f}   {:0.6f}   {:0.3f}".format(i, a_n, b_n, valor_medio, deltaMs, f(valor_medio)))
+    if deltaMs < MAX_ERR:
+        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n")
         break
 
     f_valor_medio = f(valor_medio)
@@ -46,4 +47,4 @@ for i in range(0, 1000):
         a_n = valor_medio
 
     valor_medio = (a_n + b_n) / 2
-    delta_m = (b_n - a_n) / 2
+    deltaMs = (b_n - a_n) / 2

@@ -14,11 +14,11 @@ def f(x):
 # Derivada de la función a resolver
 def df(xn, xn_1):
     return (f(xn) - f(xn_1)) / (xn - xn_1)
-# Función ade Newton-Raphson
+# Función de Newton-Raphson
 def gnr(xn, xn_1):
     return xn - f(xn) / df(xn, xn_1)
 
-# Intervalo incial
+# Intervalo inicial
 A = 1
 B = 3
 
@@ -39,7 +39,7 @@ print ("{:<3} {:<10} {:<10} {:<10} {:<10} {:<10}".format("i", "xn-1", "xn", "xn+
 for i in range(0, 100):
     print ("{:<3} {:0.6f}   {:0.6f}   {:0.6f}   {:0.6f}   {:0.6f}".format(i, xn_1, xn, gnr(xn, xn_1), delta_x, rel_error))
     if rel_error < MAX_ERR:
-        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n\n")
+        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n")
         break
     new_xn = gnr(xn, xn_1)
     delta_x = abs(new_xn - xn) / 2

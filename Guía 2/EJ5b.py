@@ -1,6 +1,6 @@
-# Ejercicio 5a:
-# Aplicando el método de Newton-Raphson, hallar la raíz cúbica de un número positivo c.
-# Verificar con un determinado c y un valor inicial adecuado.
+# Ejercicio 5b:
+# Aplicando el método de Newton-Raphson, hallar el arcoseno de un número a.
+# Verificar con a=0.5 y un valor inicial adecuado, tomando tres dígitos significativos.
 
 import numpy as np
 
@@ -9,14 +9,14 @@ import numpy as np
 # =============================================
 
 # Constante a utilizar
-c = 1.2
+a = 0.5
 
 # Función a resolver
 def gnr(x):
-    return x - (np.power(x, 3) - c) / (3 * np.power(x, 2))
+    return x + (a - np.sin(x)) / np.cos(x)
 
-# Valor incial
-X = 2
+# Valor inicial
+X = 1
 
 # Máximo error absoluto aceptable
 MAX_ERR = 0.00005
@@ -33,7 +33,7 @@ print ("{:<3} {:<8} {:<8}".format("i", "x", "Δx"))
 for i in range(0, 100):
     print ("{:<3} {:0.4f}   {:0.4f}".format(i, x, delta_x))
     if delta_x < MAX_ERR:
-        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n\n")
+        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n")
         break
     delta_x = abs(gnr(x) - x) / 2
     x = gnr(x)

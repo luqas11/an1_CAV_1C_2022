@@ -1,6 +1,6 @@
-# Ejercicio 3:
-# Hallar la raíz de la función f(x)=sen(x)-0.5*raíz(x).
-# Utilizar un método de punto fijo partiendo de un valor inicial adecuado, con función g(x)=x-F(x) y con un error relativo menor al 1%.
+# Ejercicio 8:
+# Hallar la raíz de la función f(x)=0.5-e^-x.
+# Utilizar el método de Newton-Raphson con un valor inicial de 0.25 hasta alcanzar un error relativo menor al 1%.
 
 import numpy as np
 
@@ -9,11 +9,11 @@ import numpy as np
 # =============================================
 
 # Función a resolver
-def g(x):
-    return x - np.sin(x) + 0.5 * np.sqrt(x)
+def gnr(x):
+    return x - 0.5 / np.exp(-x) + 1
 
-# Valor incial
-X = 0.3
+# Valor inicial
+X = 0.25
 
 # Máximo error relativo aceptable
 MAX_ERR = 0.01
@@ -28,11 +28,11 @@ delta_x = 0
 rel_error = np.inf
 
 print ("{:<3} {:<10} {:<10} {:<10}".format("i", "x", "Δx", "Δx / x"))
-for i in range(0, 1000):
+for i in range(0, 100):
     print ("{:<3} {:0.6f}   {:0.6f}   {:0.6f}".format(i, x, delta_x, rel_error))
     if rel_error < MAX_ERR:
-        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n\n")
+        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n")
         break
-    delta_x = abs(g(x) - x)
-    rel_error = abs(g(x) - x) / g(x)
-    x = g(x)
+    delta_x = abs(gnr(x) - x)
+    rel_error = abs(gnr(x) - x) / gnr(x)
+    x = gnr(x)

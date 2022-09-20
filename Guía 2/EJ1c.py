@@ -12,7 +12,7 @@ import numpy as np
 def f(x):
     return 1 - x - np.exp(-2*x)
 
-# Intervalo incial
+# Intervalo inicial
 A = 0.1
 B = 1.6
 
@@ -26,6 +26,7 @@ MAX_ERR = 0.02
 # Cotas de cada intervalo
 a_n = A
 b_n = B
+
 # Valor medio de cada intervalo
 valor_medio = (a_n + b_n) / 2
 delta_m = (b_n - a_n) / 2
@@ -34,7 +35,7 @@ print ("{:<3} {:<7} {:<7} {:<7} {:<7} {:<7}".format("i", "a_n", "b_n", "vm", "Δ
 for i in range(0, 1000):
     print ("{:<3} {:0.3f}   {:0.3f}   {:0.3f}   {:0.3f}   {:0.3f}".format(i, a_n, b_n, valor_medio, delta_m, f(valor_medio)))
     if delta_m < MAX_ERR:
-        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n\n")
+        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n")
         break
 
     f_valor_medio = f(valor_medio)
