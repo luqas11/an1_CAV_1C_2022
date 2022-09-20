@@ -2,7 +2,7 @@
 
 Ejercicios de resolución de ecuaciones no lineales mediante métodos iterativos.  
 
-Métodos utilizados:
+Métodos aplicados:
 - Bisección
 - Punto fijo
 - Newton-Raphson
