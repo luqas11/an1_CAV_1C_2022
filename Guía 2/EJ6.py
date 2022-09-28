@@ -30,7 +30,7 @@ print ("{:<3} {:<10} {:<10}".format("i", "x", "Δx"))
 for i in range(0, 100):
     print ("{:<3} {:0.6f}   {:0.6f}".format(i, x, delta_x))
     if delta_x < MAX_ERR:
-        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n")
+        print("Resultado válido en", i, "iteraciones", "\n")
         break
     delta_x = abs(gnr(x) - x) / 2
     x = gnr(x)

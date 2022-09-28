@@ -39,7 +39,7 @@ print ("{:<3} {:<10} {:<10} {:<10} {:<10} {:<10}".format("i", "xn-1", "xn", "xn+
 for i in range(0, 100):
     print ("{:<3} {:0.6f}   {:0.6f}   {:0.6f}   {:0.6f}   {:0.6f}".format(i, xn_1, xn, gnr(xn, xn_1), delta_x, rel_error))
     if rel_error < MAX_ERR:
-        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n")
+        print("Resultado válido en", i, "iteraciones", "\n")
         break
     new_xn = gnr(xn, xn_1)
     delta_x = abs(new_xn - xn) / 2

@@ -31,7 +31,7 @@ print ("{:<3} {:<14} {:<14} {:<14}".format("i", "x", "Δx", "Δx / x"))
 for i in range(0, 100):
     print ("{:<3} {:0.10f}   {:0.10f}   {:0.10f}".format(i, x, delta_x, rel_error))
     if rel_error < MAX_ERR:
-        print("RESULTADO VÁLIDO EN", i, "ITERACIONES", "\n")
+        print("Resultado válido en", i, "iteraciones", "\n")
         break
     delta_x = abs(gnr(x) - x)
     rel_error = abs(gnr(x) - x) / gnr(x)
