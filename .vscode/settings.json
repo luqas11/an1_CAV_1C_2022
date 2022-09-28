@@ -1,7 +1,13 @@
 {
     "cSpell.words": [
         "arcoseno",
-        "Raphson"
+        "dtype",
+        "linalg",
+        "Permutación",
+        "pivoteo",
+        "printoptions",
+        "Raphson",
+        "Seidel"
     ],
     "cSpell.language": "en,es",
 }
