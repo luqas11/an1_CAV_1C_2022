@@ -1,5 +1,5 @@
 # Ejercicio 1a:
-# Obtener la descomposición LU del el sistema de ecuaciones Ax=b y resolverlo.
+# Obtener la descomposición LU del sistema de ecuaciones Ax=b y resolverlo.
 
 import numpy as np
 
