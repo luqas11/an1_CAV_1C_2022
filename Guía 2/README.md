@@ -7,5 +7,3 @@ Métodos aplicados:
 - Punto fijo
 - Newton-Raphson
 - Secante
-
-###### - _Lucas C_
