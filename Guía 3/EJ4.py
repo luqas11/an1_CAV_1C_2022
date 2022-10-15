@@ -1,4 +1,5 @@
-# Algoritmo utilizado: Resolución de un sistema a partir de la descomposición LU
+# Ejercicio 4:
+# Resolver el sistema de ecuaciones Ax=b, dada su descomposición LU y su matriz de permutaciones.
 
 import numpy as np
 

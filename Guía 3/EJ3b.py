@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Eliminación Gaussiana con pivoteo parcial y refinamiento de la solución
+# Ejercicio 3b:
+# Obtener la descomposición LU del sistema de ecuaciones Ax=b, aplicar pivoteo parcial y resolverlo refinando iterativamente la solución.
+# Utilizar aritmética de punto flotante con 3 dígitos de precisión y estimar el error de redondeo a partir del refinamiento.
 
 import numpy as np
 

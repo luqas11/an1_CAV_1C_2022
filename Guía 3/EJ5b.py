@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Eliminación Gaussiana sin pivoteo parcial
+# Ejercicio 5b:
+# Obtener la descomposición LU del sistema de ecuaciones Ax=b y resolverlo refinando iterativamente la solución.
+# Utilizar aritmética de punto flotante con 4 dígitos de precisión.
 
 import numpy as np
 

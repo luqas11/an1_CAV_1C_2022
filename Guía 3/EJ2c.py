@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Eliminación Gaussiana sin pivoteo y con refinamiento de la solución
+# Ejercicio 2c:
+# Obtener la descomposición LU del sistema de ecuaciones Ax=b y resolverlo refinando iterativamente la solución.
+# Utilizar aritmética de punto flotante con 4 dígitos de precisión y redondeo simétrico para todas las operaciones.
 
 import numpy as np
 

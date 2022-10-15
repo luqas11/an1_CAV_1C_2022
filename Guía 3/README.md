@@ -5,6 +5,7 @@ Ejercicios de resolución de sistemas de ecuaciones lineales por métodos direct
 Métodos aplicados:
 - Eliminación Gaussiana
 - Descomposición LU
+- Refinamiento iterativo
 - Jacobi
 - Gauss-Seidel
 

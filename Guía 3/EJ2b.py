@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Eliminación Gaussiana con pivoteo parcial
+# Ejercicio 2b:
+# Obtener la descomposición LU del sistema de ecuaciones Ax=b, aplicar pivoteo parcial y resolverlo.
+# Utilizar aritmética de punto flotante con 4 dígitos de precisión y redondeo simétrico para todas las operaciones.
 
 import numpy as np
 

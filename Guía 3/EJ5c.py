@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Eliminación Gaussiana sin pivoteo y sin descomposición LU
+# Ejercicio 5c:
+# Aplicando el método de eliminación de Gauss, resolver el sistema de ecuaciones Ax=b.
+# Utilizar aritmética de punto flotante con 4 dígitos de precisión.
 
 import numpy as np
 

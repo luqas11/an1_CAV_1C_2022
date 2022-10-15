@@ -1,4 +1,5 @@
-# Algoritmo utilizado: Método de eliminación de Gauss y método de Gauss-Seidel
+# Ejercicio 11:
+# Resolver el sistema de ecuaciones Ax=b mediante el método de eliminación de Gauss y el método de Gauss-Seidel.
 
 import numpy as np
 

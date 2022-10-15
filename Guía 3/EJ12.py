@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Método de Gauss-Seidel
+# Ejercicio 12:
+# Aplicando el método de Gauss-Seidel, resolver el sistema de ecuaciones Ax=b.
+# Realizar las modificaciones necesarias en el sistema para garantizar la convergencia del método y utilizar aritmética de punto flotante con 4 dígitos de precisión.
 
 import numpy as np
 

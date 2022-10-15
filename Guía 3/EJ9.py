@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Método de Gauss-Seidel
+# Ejercicio 9:
+# Aplicando el método de Gauss-Seidel, resolver el sistema de ecuaciones Ax=b.
+# Iterar hasta alcanzar un error absoluto menor a 0.02 en las tres variables del sistema.
 
 import numpy as np
 

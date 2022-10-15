@@ -1,4 +1,5 @@
-# Algoritmo utilizado: Métodos de Jacobi y Gauss-Seidel. NO CONVERGE, por tener radio espectral ≥ 1.
+# Ejercicio 10:
+# Aplicando los métodos de Jacobi y Gauss-Seidel, verificar que la solución no converge (debido a que la matriz tiene radio espectral menor o igual a 1).
 
 import numpy as np
 

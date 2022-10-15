@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Método de Jacobi
+# Ejercicio 8:
+# Aplicando el método de Jacobi, resolver el sistema de ecuaciones Ax=b.
+# Realizar las modificaciones necesarias en el sistema para garantizar la convergencia del método.
 
 import numpy as np
 

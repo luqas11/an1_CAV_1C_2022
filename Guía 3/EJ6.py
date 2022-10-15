@@ -1,4 +1,5 @@
-# Algoritmo utilizado: Eliminación Gaussiana con pivoteo parcial y sin descomposición LU
+# Ejercicio 6:
+# Aplicando el método de eliminación de Gauss y pivoteo parcial, resolver el sistema de ecuaciones Ax=b.
 
 import numpy as np
 

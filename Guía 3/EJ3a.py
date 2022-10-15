@@ -1,4 +1,6 @@
-# Algoritmo utilizado: Eliminación Gaussiana con pivoteo parcial y sin descomposición LU
+# Ejercicio 3a:
+# Aplicando el método de eliminación de Gauss y realizando pivoteo parcial, resolver el sistema de ecuaciones Ax=b.
+# Utilizar aritmética de punto flotante con 3 dígitos de precisión.
 
 import numpy as np
 
