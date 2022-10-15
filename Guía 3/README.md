@@ -8,5 +8,3 @@ Métodos aplicados:
 - Refinamiento iterativo
 - Jacobi
 - Gauss-Seidel
-
-###### - _Lucas C_
