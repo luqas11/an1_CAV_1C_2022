@@ -24,7 +24,7 @@ def phi1(x):
 def f(x):
     return np.exp(x)
 
-# Seteo de los valores de y
+# Asignación de los valores de y
 for i in range(0, len(xk)):
     yk[i] = f(xk[i])
 
