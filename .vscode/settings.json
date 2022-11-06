@@ -4,12 +4,18 @@
         "dtype",
         "iterativamente",
         "linalg",
+        "linewidth",
+        "linspace",
+        "matplotlib",
         "Permutación",
         "permutaciones",
         "pivoteo",
         "printoptions",
+        "pyplot",
         "Raphson",
-        "Seidel"
+        "Seidel",
+        "xlim",
+        "ylim"
     ],
     "cSpell.language": "en,es",
 }
