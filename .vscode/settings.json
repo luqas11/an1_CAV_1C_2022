@@ -1,8 +1,11 @@
 {
     "cSpell.words": [
+        "amax",
+        "amin",
         "arcoseno",
         "Deslinealización",
         "dtype",
+        "figsize",
         "iterativamente",
         "linalg",
         "linewidth",
