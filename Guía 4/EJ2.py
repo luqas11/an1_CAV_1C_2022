@@ -17,7 +17,7 @@ y = np.zeros((len(x), 1), dtype = float)
 F_x = np.zeros((len(x), 1), dtype = float)
 J_x = np.zeros((len(x), len(x)), dtype = float)
 
-PRECISION = 4
+precision = 4
 
 # Funciones a resolver
 def f(x, y):
