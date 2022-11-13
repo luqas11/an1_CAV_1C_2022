@@ -278,12 +278,12 @@ def romberg(f, h, inf, sup):
     numpy.ndarray
         Tabla de dimensiones 4x4 con todos los resultados parciales del método de Romberg.
     """    
-    rTable = np.zeros((4, 4), dtype = float)
+    romberg_table = np.zeros((4, 4), dtype = float)
 
     for i in range(0, 4):
         _h = h/(2**i)
-        rTable[i][0] = trapezoidal(f, _h, inf, sup)
+        romberg_table[i][0] = trapezoidal(f, _h, inf, sup)
     for i in range(0,3):
         for j in range(i+1,4):
-            rTable[j][i+1] = richardson(rTable[j-1][i], rTable[j][i], 2*(i+1))
-    return rTable
+            romberg_table[j][i+1] = richardson(romberg_table[j-1][i], romberg_table[j][i], 2*(i+1))
+    return romberg_table

@@ -40,10 +40,10 @@ print("Resultado exacto: 4.0471895621")
 
 # Plots
 margin = 0.2
-windowSize = 0.5
+window_size = 0.5
 
 plt.style.use('_mpl-gallery')
-fig, ax = plt.subplots(figsize=(windowSize * 16, windowSize * 9), tight_layout=True)
+fig, ax = plt.subplots(figsize=(window_size * 16, window_size * 9), tight_layout=True)
 
 width = sup - inf
 

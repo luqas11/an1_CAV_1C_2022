@@ -84,7 +84,7 @@ for i in range(0, 30):
 
     valid = 1
     for j in range(0, len(diff)):
-        if abs(mag(diff[j]) - mag(x[j])) <= PRECISION:
+        if abs(mag(diff[j]) - mag(x[j])) <= precision:
             valid = 0
     if valid:
         print("Resuelto en", i, "iteraciones")

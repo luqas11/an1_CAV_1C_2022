@@ -32,7 +32,7 @@ def f(x):
 # =============================================
 startTime = time.perf_counter_ns()
 
-rTable = romberg(f, h, inf, sup)
+romberg_table = romberg(f, h, inf, sup)
 
 endTime = time.perf_counter_ns()
 # =============================================
@@ -40,17 +40,17 @@ endTime = time.perf_counter_ns()
 # =============================================
 
 # Prints
-print(rTable, "\n")
+print(romberg_table, "\n")
 print("Tiempo de ejecución:", (endTime - startTime) / 1000000, "ms")
-print("Resultado del Romberg: ", rTable[3][3])
+print("Resultado del Romberg: ", romberg_table[3][3])
 print("Resultado exacto: 0.7720957854")
 
 # Plots
 margin = 0.2
-windowSize = 0.5
+window_size = 0.5
 
 plt.style.use('_mpl-gallery')
-fig, ax = plt.subplots(figsize=(windowSize * 16, windowSize * 9), tight_layout=True)
+fig, ax = plt.subplots(figsize=(window_size * 16, window_size * 9), tight_layout=True)
 
 width = sup - inf
 
@@ -59,7 +59,7 @@ y = f(x)
 
 height = np.amax(y) - np.amin(y)
 
-ax.set_title('Resultado: I=%f' % rTable[3][3], loc='right')
+ax.set_title('Resultado: I=%f' % romberg_table[3][3], loc='right')
 ax.set_title('Método de Romberg, con h=%f' % h, loc='left')
 ax.set(xlim=(inf - width * margin, sup + width * margin), ylim=(np.amin(y) - height * margin, np.amax(y) + height * margin))
 ax.plot(x, y, linewidth=2.0)

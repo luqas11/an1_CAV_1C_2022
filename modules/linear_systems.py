@@ -2,7 +2,7 @@
 
 import numpy as np
 
-ITERACIONES_JACOBI = 4
+JACOBI_ITERATIONS = 4
 
 def jacobi(A, b, xi):
     """Retorna el vector solución del sistema `Ax = b`, calculado por el método de Jacobi.
@@ -26,7 +26,7 @@ def jacobi(A, b, xi):
     x = xi.copy()
     x1 = np.zeros((len(x), 1), dtype = float)
 
-    for i in range(0, ITERACIONES_JACOBI):
+    for i in range(0, JACOBI_ITERATIONS):
         x1 = x.copy()
         for j in range(0, len(A)):
             sum = 0
