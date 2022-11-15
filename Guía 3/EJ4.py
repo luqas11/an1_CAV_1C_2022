@@ -1,5 +1,7 @@
 # Ejercicio 4:
-# Resolver el sistema de ecuaciones Ax=b, dada su descomposición LU y su matriz de permutaciones.
+# Dada la descomposición LU de una matriz, su matriz de permutaciones, y un vector b:
+# a) Resolver el sistema Ax=b a partir de la descomposición
+# b) Obtener la matriz A y verificar la solución x
 
 import numpy as np
 
