@@ -1,5 +1,5 @@
 # Ejercicio 1a:
-# Aproximar la función y = e^x utilizando el método de cuadrados mínimos sobre los puntos -1, -0.5, 0, 0.5 y 1.
+# Aproximar la función y = e^x con una recta utilizando el método de cuadrados mínimos sobre los puntos -1, -0.5, 0, 0.5 y 1.
 
 import numpy as np
 import matplotlib.pyplot as plt

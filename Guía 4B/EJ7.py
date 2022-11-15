@@ -1,9 +1,8 @@
 # Ejercicio 7:
-# Obtener la matriz de coeficientes que requiere el método cuadrados mínimos para aproximar mediante una parábola los siguientes datos:
+# Obtener la matriz de productos internos que requiere el método cuadrados mínimos para aproximar mediante una parábola los siguientes datos:
 # x | -2  -1  0  1  2
 
 import numpy as np
-import matplotlib.pyplot as plt
 
 # =============================================
 #             PARÁMETROS INICIALES            
