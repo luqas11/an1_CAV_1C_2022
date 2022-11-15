@@ -1,6 +1,6 @@
 # Ejercicio 1:
 # Resolver el siguiente sistema de ecuaciones no lineales con el método de Newton-Raphson:
-# f(x,y) = x^2 + y^2 - 1 = 0
+# f(x,y) = x^2 + y^2 - 4 = 0
 # g(x,y) = x*y - 1 = 0
 # Partir de los valores (2, 0) para (x, y).
 
