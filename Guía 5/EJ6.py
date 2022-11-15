@@ -1,9 +1,12 @@
 # Ejercicio 6:
-# Discretizar la siguiente ecuación diferencial con condiciones iniciales utilizando el método de Euler explícito:
+# El intercambio de calor entre un sólido y su entorno está dado por la función T(t) que es solución de la ecuación diferencial T' = T - T_inf (siendo T_inf la temperatura del entorno en que se encuentra).
+# La temperatura inicial del sólido es de 40ºC y la temperatura ambiente es de 20ºC.
+# Estimar los valores de temperatura del sólido en el intervalo de tiempo (0, 6), discretizando la ecuación diferencial mediante el método de Euler explícito y utilizando un paso de 0.3s.
+
+# Interpretación del enunciado:
 # y' = y - a
-# y(0) = 0
+# y(0) = 313
 # a = 293
-# Estimar los valores del intervalo (0, 6) con un paso de 0.3
 
 import time
 import numpy as np
