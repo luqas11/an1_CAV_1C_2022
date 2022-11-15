@@ -22,18 +22,18 @@ def bisection(f, inf, sup):
     """    
     a_n = inf
     b_n = sup
-    valor_medio = (a_n + b_n) / 2
+    midpoint = (a_n + b_n) / 2
 
-    x = valor_medio
+    x = midpoint
     for i in range(0, BISECTION_ITERATIONS):
-        f_valor_medio = f(valor_medio)
+        f_midpoint = f(midpoint)
         f_an = f(a_n)
-        if f_valor_medio * f_an < 0:
-            b_n = valor_medio
+        if f_midpoint * f_an < 0:
+            b_n = midpoint
         else:
-            a_n = valor_medio
-        valor_medio = (a_n + b_n)/2
-        x = valor_medio
+            a_n = midpoint
+        midpoint = (a_n + b_n)/2
+        x = midpoint
     return x
 
 def newton_raphson(f, seed):

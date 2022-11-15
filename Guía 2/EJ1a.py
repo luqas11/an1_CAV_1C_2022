@@ -28,23 +28,23 @@ a_n = A
 b_n = B
 
 # Valor medio de cada intervalo
-valor_medio = (a_n + b_n) / 2
+midpoint = (a_n + b_n) / 2
 delta_m = (b_n - a_n) / 2
 
 print ("{:<3} {:<7} {:<7} {:<7} {:<7} {:<7}".format("i", "a_n", "b_n", "vm", "Δm", "f_vm"))
 for i in range(0, 1000):
-    print ("{:<3} {:0.3f}   {:0.3f}   {:0.3f}   {:0.3f}   {:0.3f}".format(i, a_n, b_n, valor_medio, delta_m, f(valor_medio)))
+    print ("{:<3} {:0.3f}   {:0.3f}   {:0.3f}   {:0.3f}   {:0.3f}".format(i, a_n, b_n, midpoint, delta_m, f(midpoint)))
     if delta_m < MAX_ERR:
         print("Resultado válido en", i, "iteraciones", "\n")
         break
 
-    f_valor_medio = f(valor_medio)
+    f_midpoint = f(midpoint)
     f_an = f(a_n)
 
-    if f_valor_medio * f_an < 0:
-        b_n = valor_medio
+    if f_midpoint * f_an < 0:
+        b_n = midpoint
     else:
-        a_n = valor_medio
+        a_n = midpoint
 
-    valor_medio = (a_n + b_n) / 2
+    midpoint = (a_n + b_n) / 2
     delta_m = (b_n - a_n) / 2
