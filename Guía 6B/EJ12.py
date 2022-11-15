@@ -1,5 +1,5 @@
 # Ejercicio 12:
-# Integrar la siguiente función en el intervalo (1, 5) utilizando el método de Simpson con un error menor a 0.01:
+# Utilizando el método de Simpson, integrar la siguiente función en el intervalo (1, 5) con un error menor a 0.01:
 # f(x) = ln(x)
 
 import time

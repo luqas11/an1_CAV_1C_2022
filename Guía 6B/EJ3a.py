@@ -1,5 +1,5 @@
 # Ejercicio 3a:
-# Integrar la función f(x) = sen(x) en el intervalo (0, pi/2) utilizando el método del trapecio con la siguiente tabla:
+# Integrar la función f(x) = sen(x) en el intervalo (0, pi/2) utilizando el método del trapecio con los siguientes valores:
 #    x | 0       pi/12   pi/6    pi/4    pi/3    5*pi/12 pi/2
 # f(x) | 0.0000  0.2587  0.5000  0.7071  0.8660  0.9659  1.0000
 
