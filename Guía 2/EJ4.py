@@ -1,6 +1,6 @@
 # Ejercicio 4:
-# Hallar la raíz de la ecuación x=cos(x).
-# Utilizar el método de Newton-Raphson partiendo de un valor inicial adecuado y hasta alcanzar un error relativo menor a 10^-10.
+# Resolver la ecuación x=cos(x) con un error relativo menor a 10^-10.
+# Aplicar el método de Newton-Raphson partiendo de un valor inicial adecuado.
 
 import numpy as np
 

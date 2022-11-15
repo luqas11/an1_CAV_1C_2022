@@ -1,6 +1,6 @@
 # Ejercicio 7:
-# Hallar la raíz no nula de la función f(x)=x^2/4-sen(x).
-# Utilizar el método de la secante hasta alcazar un error relativo menor al 0.1%. Determinar un intervalo inicial adecuado.
+# Hallar la raíz no nula de la función f(x)=x^2/4-sen(x) con un error relativo menor al 0.1%.
+# Aplicar el método de la secante a partir de un intervalo adecuado.
 
 import numpy as np
 

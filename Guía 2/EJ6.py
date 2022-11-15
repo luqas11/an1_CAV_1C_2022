@@ -1,6 +1,6 @@
 # Ejercicio 6:
-# Hallar la raíz de la función f(x)=sen(x) que se encuentra en el intervalo 3<x<3.3.
-# Utilizar el método de Newton-Raphson con un valor inicial de 3 y hasta alcanzar 6 dígitos significativos de precisión.
+# Hallar la raíz de la función f(x)=sen(x) que se encuentra en el intervalo (3, 3.3) con 6 dígitos significativos de precisión.
+# Aplicar el método de Newton-Raphson con un valor inicial de 3.
 
 import numpy as np
 

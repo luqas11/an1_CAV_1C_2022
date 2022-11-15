@@ -1,6 +1,6 @@
 # Ejercicio 3:
-# Hallar la raíz de la función f(x)=sen(x)-0.5*raíz(x).
-# Utilizar un método de punto fijo partiendo de un valor inicial adecuado, con función g(x)=x-F(x) y con un error relativo menor al 1%.
+# Hallar la raíz de la función f(x)=sen(x)-0.5*raíz(x) que se encuentra en el intervalo (0, 2] con un error relativo menor al 1%.
+# Calcular mediante un método de punto fijo, partiendo de un valor inicial adecuado y utilizando la función g(x)=x-F(x).
 
 import numpy as np
 

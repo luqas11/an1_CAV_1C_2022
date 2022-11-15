@@ -1,6 +1,6 @@
 # Ejercicio 1b:
-# Hallar la raíz de la ecuación 2*x-e^(-x)=0 que se encuentra en el intervalo (0, 1.6).
-# Utilizar el método de bisección hasta alcanzar un error absoluto menor a 0.2.
+# Hallar la raíz de la ecuación 2*x-e^(-x)=0 que se encuentra en el intervalo (0, 1.6) con un error absoluto menor a 0.2.
+# Utilizar el método de bisección.
 
 import numpy as np
 

@@ -1,6 +1,6 @@
 # Ejercicio 2:
-# Hallar la raíz de la función f(x)=x^2/4-sen(x).
-# Calcular mediante el método de bisección, a partir de un intervalo adecuado y con un error absoluto menor a 0.02.
+# Hallar la primera raíz positiva de la función f(x)=x^2/4-sen(x) con un error absoluto menor a 0.02.
+# Calcular mediante el método de bisección partiendo de un intervalo adecuado.
 
 import numpy as np
 

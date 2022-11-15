@@ -1,6 +1,6 @@
 # Ejercicio 8:
-# Hallar la raíz de la función f(x)=0.5-e^-x.
-# Utilizar el método de Newton-Raphson con un valor inicial de 0.25 hasta alcanzar un error relativo menor al 1%.
+# Hallar la raíz de la función f(x)=0.5-e^-x con un error relativo menor al 1%.
+# Aplicar el método de Newton-Raphson con un valor inicial de 0.25.
 
 import numpy as np
 
