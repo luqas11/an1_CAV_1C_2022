@@ -1,9 +1,14 @@
 # Ejercicio 3:
-# Discretizar la siguiente ecuación diferencial con valores de contorno utilizando operadores de derivada de orden 2:
+# Una barra unidimensional de 2m de longitud tiene una fuente de calor interna dada por la función R(x) = 1 + x, e intercambia calor con el ambiente a través de sus extremos.
+# La temperatura a lo largo de la barra está determinada por la función T(x) que es solución de la ecuación diferencial T''(x) + R(x) = 0
+# El flujo de calor en el extremo derecho está dado por la función T'(2) = T_inf - T(2) (siendo T_inf la temperatura del entorno en que se encuentra).
+# La temperatura en el extremo izquierdo de la barra es de 10ºC y la temperatura ambiente es de 5ºC.
+# Estimar los valores de temperatura en la barra, discretizando la ecuación diferencial mediante operadores de derivada de orden 2 y utilizando un paso de 1m.
+
+# Interpretación del enunciado:
 # y'' + 1 + x = 0
 # y(0) = 10
 # y'(2) = - y(2) + 5
-# Estimar los valores del intervalo dado con un paso de 1
 
 import time
 import numpy as np

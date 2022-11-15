@@ -1,9 +1,12 @@
 # Ejercicio 5:
-# Discretizar la siguiente ecuación diferencial con valores de contorno utilizando operadores de derivada de orden 2:
+# La ecuación de flexión a lo largo de una viga que sostiene un determinado peso está dada por la función V(x) que es solución de la ecuación diferencial V'' = (L * 5x - 5x^2) * (1 + V'^2)^(3/2) (donde L es la longitud de la viga).
+# La viga mide 1m y en sus extremos la flexión es nula.
+# Estimar la longitud de la flexión en la viga, discretizando la ecuación diferencial mediante operadores de derivada de orden 2 y utilizando un paso de (1/3)m.
+
+# Interpretación del enunciado:
 # y'' = (5x - 5x^2) * (1 + y'^2)^(3/2)
 # y(0) = 0
 # y(1) = 0
-# Estimar los valores del intervalo dado con un paso de 1/3
 
 import time
 import numpy as np
@@ -23,9 +26,9 @@ h = (1/3)
 ui = 0
 uf = 0
 
-# Solución exacta
+# Solución aproximada, despreciando el término (1 + y'^2)^(3/2)
 def fe(x):
-    return 5*(x**3)/6 - 5*(x**4/12) - x*5/12
+    return -5/12 * (x**4 - 2*x**3 + x)
 
 # Función que genera los coeficientes para la construcción de la matriz tridiagonal
 def fc(x):

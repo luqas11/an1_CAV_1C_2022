@@ -1,9 +1,13 @@
 # Ejercicio 7:
-# Discretizar la siguiente ecuación diferencial con valores de contorno utilizando operadores de derivada de orden 2:
+# La distribución de temperatura en una barra de sección variable responde a la función T(x) que es solución de la ecuación diferencial 100*T''(x) + 100*A'(x) * T'(x) + 10 = 0.
+# La sección a lo largo de la barra está dada por la función A(x) = 0.25 + 0.2x y su longitud es de 1.5m
+# El extremo izquierdo está a una temperatura fija de 40ºK y el extremo derecho tiene flujo de calor nulo.
+# Estimar los valores de temperatura en la barra, discretizando la ecuación diferencial mediante operadores de derivada de orden 2 y utilizando un paso de 0.5m.
+
+# Interpretación del enunciado:
 # (25 + 20x) * y'' + 20y' + 10 = 0
 # y(0) = 40
 # y'(1.5) = 0
-# Estimar los valores del intervalo dado con un paso de 0.5
 
 import time
 import numpy as np
