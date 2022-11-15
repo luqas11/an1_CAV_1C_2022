@@ -1,6 +1,11 @@
 # Ejercicio 1:
-# Discretizar la siguiente ecuación diferencial espacio-temporal utilizando operadores de derivada:
-# T_t = 5T_xx
+# Una barra unidimensional de longitud 3m se encuentra inicialmente a una temperatura de 500ºK.
+# En el instante t = 0 sus extremos se ponen en contacto hielo, fijando su temperatura a 273ºK.
+# La distribución de temperatura a lo largo del tiempo sobre la longitud de la barra está dada por la ecuación T(x, t) que es solución de la ecuación diferencial T_t = 5*T_xx.
+# Estimar los valores de temperatura en la barra en el intervalo (0, 0.02), discretizando la ecuación diferencial mediante operadores de derivada de orden 2 y utilizando un paso espacial de 0.5m y un paso temporal de 0.01s.
+
+# Interpretación del enunciado:
+# T_t = 5*T_xx
 # T(0, 0) = 273
 # T(0, 3) = 273
 # T(0, x) = 500, con x perteneciente a (0, 3)
