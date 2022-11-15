@@ -1,5 +1,5 @@
 # Ejercicio 16:
-# Hallar un polinomio que interpole la función f(x) = sen(x) utilizando el método de Hermite con los siguientes datos:
+# Hallar un polinomio que interpole los siguientes datos utilizando el método de Hermite:
 #    x | 0.00 3.00  5.00   8.00   13.00
 # f(x) | 0.00 67.50 114.90 186.90 297.90
 #

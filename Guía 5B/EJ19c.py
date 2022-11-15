@@ -1,6 +1,6 @@
 # Ejercicio 19c:
 # Hallar un polinomio que interpole la función f(x) = e^x aplicando el método de Lagrange con los siguientes valores:
-#    x | 0.5     1.0     2.0
+#    x | 0     1.0     2.0
 # f(x) | 1.00000 2.71828 7.38906
 # Estimar el valor de f(0.75) y f(0.25)
 
