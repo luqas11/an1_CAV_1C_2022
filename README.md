@@ -1,8 +1,8 @@
 # an1_CAV_1C_2022
 
-Usé este repositorio para subir el código de los ejercicios de práctica que hice mientras cursaba Análisis Numérico I en la FIUBA. Los enunciados son similares a los que indican las guías de ejercicios del curso.
+Usé este repositorio para subir el código de los ejercicios de práctica que hice mientras cursaba Análisis Numérico I en la FIUBA.
 
-Las guías tienen ejercicios de resolución numérica de:
+Las guías de ejercicios del curso correspondían a los siguientes temas:
 | Guía | Tema                                                          |
 |------|---------------------------------------------------------------|
 | 2    | Ecuaciones no lineales                                        |
