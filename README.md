@@ -2,7 +2,7 @@
 
 Usé este repositorio para subir el código de los ejercicios de práctica que hice mientras cursaba Análisis Numérico I en la FIUBA.
 
-Las guías de ejercicios del curso correspondían a los siguientes temas:
+Los ejercicios están agrupados en varias guías, cubriendo los siguientes temas:
 | Guía | Tema                                                          |
 |------|---------------------------------------------------------------|
 | 2    | Ecuaciones no lineales                                        |
